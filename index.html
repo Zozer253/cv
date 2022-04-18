@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portail personnel</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="brand">logo</h1>
+        <ul class="links-container">
+            <li class="links-item"><a href="#" class="link active">home</a></li>
+            <li class="links-item"><a href="#project-section  " class="link">projet</a></li>
+            <li class="links-item"><a href="#about-section" class="link">apropos</a></li>
+            <li class="links-item"><a href="#contact-section" class="link">contact</a></li>
+        </ul>
+    </nav>
+
+    <!--home element-->
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-heading"><span class="highlight">salut, </span>j'suis zozer</h1>
+            <p class="profession">admin système et réseau</p>
+            <p class="info">Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Quas, quod deserunt. 
+                Ratione ut quod laboriosam doloribus. 
+                Veritatis quae autem dolore dolorum quia 
+                explicabo. 
+                Dignissimos, optio. Ut unde quas soluta 
+                perspiciatis!
+            </p>
+            <a href="#contact-section" class="btn">contact</a>
+        </div>
+        <img src="img/img1.png" class="image" alt="">
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about-section">
+        <h2 class="heading">Apropos <span class="highlight">de moi</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur</p>
+        <div class="seperator"></div>
+
+        <div class="about-me-container">
+            <div class="left-col">
+                <img src="img/img2.JPG" class="about-image" alt="">
+            </div>
+            <div class="right-col">
+                <p class="about-para">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio vitae repudiandae soluta! 
+                    Vero molestiae a minima cumque, aliquid unde eius doloremque aut! Ab perspiciatis 
+                    at tempore dolorem nemo! Veritatis, nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Molestias in magnam porro, consequatur
+                    tempora mollitia? Odio sint unde consectetur totam perspiciatis eveniet sunt, 
+                    rem maiores, quasi ad neque, commodi itaque.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, esse iste ab nobis enim architecto 
+                    cupiditate doloremque, earum laboriosam maxime odio, 
+                    eaque ad ipsa accusamus! Natus distinctio provident veniam. Dolorem.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit placeat reprehenderit nihil 
+                    facilis quis nisi qui voluptas quo provident architecto ab modi doloremque suscipit velit incidunt, 
+                    tempora ea laudantium!
+                </p>
+                <a href="#" class="btn">télécharger mon cv</a>
+            </div>
+        </div>
+
+        <h2 class="heading">mes compétances et language</h2>
+        <div class="seperator"></div>
+        <div class="skill-container">
+            <div class="skill-card" style="--bg: #f06529">
+                <p class="skill">ADMIN RESEAU</p>
+            </div>
+            <div class="skill-card large" style="--bg: #f06529">
+                <p class="skill">ADMIN SYSTEME</p>
+            </div>
+            <div class="skill-card" style="--bg: #f72f1e">
+                <p class="skill">CYBERSECURITE</p>
+            </div>
+            <div class="skill-card" style="--bg: #5ed9fb">
+                <p class="skill">MAINTENANCE</p>
+            </div>
+            <div class="skill-card large" style="--bg: #83cd29">
+                <p class="skill">PYTHON</p>
+            </div>
+            <div class="skill-card" style="--bg: #326690">
+                <p class="skill">HTML</p>
+            </div>
+            <div class="skill-card" style="--bg: #ffa000">
+                <p class="skill">CSS</p>
+            </div>
+            <div class="skill-card" style="--bg: #f06529">
+                <p class="skill">JAVASCRIPT</p>
+            </div>
+            <div class="skill-card large" style="--bg: #f06529">
+                <p class="skill">SQL SERVER</p>
+            </div>
+            <div class="skill-card" style="--bg: #5ed9fb">
+                <p class="skill">LEADERSHIP</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project-section">
+        <h2 class="heading">Projet<span class="highlight">s</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur</p>
+        <div class="seperator"></div>
+
+        <div class="filters">
+            <button class="filter-btn active" id="all">all</button>
+            <button class="filter-btn" id="system">system admin</button>
+            <button class="filter-btn" id="networking">networking admin</button>
+            <button class="filter-btn" id="python">python</button>
+            <button class="filter-btn" id="devops">devops</button>
+            <button class="filter-btn" id="frontend">frontend</button>
+        </div>
+
+        <div class="project-container">
+            <!--  <div class="project-card">
+                <img src="img/project-one.jpg" alt="">
+                <div class="content">
+                    <h1 class="project-name">project one</h1>
+                    <span class="tags ">system admin</span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- contact form -->
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Contactez-<span class="highlight">moi</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur</p>
+        <div class="seperator"></div>
+
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="first name">
+                <input type="text" class="last-name" required placeholder="last name">
+            </div>
+            <input type="email" required class="email" placeholder="email">
+            <textarea class="message" placeholder="message" required></textarea>
+            <button class="btn contact-btn">Contactez</button>
+        </div>
+    </section>
+
+    <script src="js/project.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
